@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureVault | Unified Credential Management</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h2>SecureVault</h2>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#user-mgmt">User Management</a></li>
+                <li><a href="#admin-panel">Admin Panel</a></li>
+                <hr>
+                <li><a href="#reports">Reports (PW Protected)</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <header>
+                <h1>Confidential Data Lockers</h1>
+            </header>
+
+            <div class="locker-grid">
+                <div class="card">
+                    <h3>Mail & Password</h3>
+                    <p>Stored credentials for email accounts.</p>
+                    <button class="btn">Open Locker</button>
+                </div>
+
+                <div class="card">
+                    <h3>Bank Information</h3>
+                    <p>Encrypted account details and PINs.</p>
+                    <button class="btn">Open Locker</button>
+                </div>
+
+                <div class="card">
+                    <h3>Video Locker</h3>
+                    <p>Private video storage.</p>
+                    <button class="btn">Open Locker</button>
+                </div>
+
+                <div class="card">
+                    <h3>Image Locker</h3>
+                    <p>Secure photo gallery.</p>
+                    <button class="btn">Open Locker</button>
+                </div>
+
+                <div class="card">
+                    <h3>Music Locker</h3>
+                    <p>Private audio files.</p>
+                    <button class="btn">Open Locker</button>
+                </div>
+            </div>
+
+            <section id="reports" class="reports-section">
+                <h2>Generated Reports</h2>
+                <table>
+                    <tr>
+                        <th>Report Name</th>
+                        <th>Type</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td>Admin Activity Log</td>
+                        <td>Admin</td>
+                        <td><button class="btn-alt">Download (Protected)</button></td>
+                    </tr>
+                    <tr>
+                        <td>Bank Transaction Summary</td>
+                        <td>Bank</td>
+                        <td><button class="btn-alt">View (Protected)</button></td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
